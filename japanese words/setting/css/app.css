@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Myanmar;
+    src: url(../font/Myanmar1.ttf);
+}
+
+
+/* My Accordion */
+
+.box {
+    font-family: arial;
+    border: 1px solid #8badbd;
+    /* a22 (1st) */
+    padding: 1px;
+    margin-bottom: 8px;
+}
+
+.box .header {
+    color: #fff;
+    background: #040A18;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box:nth-child(even) .header {
+    background: #60A3D9; 
+    /* Previous: #647C90(bluegray), #4E4F50(cool grey), #050A30(dark blue)  */
+}
+
+
+/* Box->Header->Words  */
+
+.box .header .wordBtn { 
+    width: 100%;
+    padding: .6rem;
+    /* previous: 8px; */
+    margin: 0;
+    cursor: pointer;
+}
+
+
+/* End, Box->Header->Words  */
+
+
+/*　ひらがな　btn(Box->Header->a) */
+
+.box .header .hiragana {
+    width: 40%;
+    padding: .5rem;
+    margin-right: .3rem;
+}
+
+
+/*　End, ひらがな　btn(Box->Header->a) */
+
+/* 'BS accodion body' => .endOfPart */
+
+.endOfPart {
+    margin-bottom: 15px;
+}
+
+
+/* 'BS accodion body' => .endOfPart */
+/* 'BS accodion body' => .box => .startOfPart */
+
+.box .startOfPart {
+    background: #000C66 !important;
+}
+
+
+/* 'BS accodion body' => .box=> .startOfPart */
+
+
+/* BS blockquote-footer */
+
+.blockquote-footer {
+    margin-bottom: 0;
+}
+
+
+/* End, BS blockquote-footer */
+
+.btn-dark:focus {
+    color: #03a9f4;
+}
+
+.box .myDetail {
+    padding: 1rem;
+}
+
+.box .up {
+    color: #07fda3;
+}
+
+.box a {
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
+
+.myDetail .jisho span, .myDetail .reibun  {
+    color: #040a18;
+    line-height: 1.6;
+}
+
+.myanmar { /* .myDetail .myanmar */
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+.myDetail-color {
+    background: #3eb489;
+    /* Mint: #3eb489; Orange: #b95434; */
+}
+
+
+/* End, My Accordion */
+
+body {
+    font-family: Arial, Myanmar, Helvetica, sans-serif;
+    width: 360px;
+    margin: 20px auto;
+    border: 1px solid #03a9f4;
+    /* previous: 6b62b7 */
+    background: #181818;
+    color: #fff;
+}
+
+.myContainer {
+    padding-left: .6rem;
+}
+
+.myNav {
+    padding-left: .1rem;
+}

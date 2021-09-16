@@ -1,0 +1,27 @@
+
+    <script>
+        class Circle {
+            constructor ( radius)
+            {
+                this.r = radius;
+            }
+            get area()
+            {
+                return Math.PI * this.r * this.r;
+            }
+            set radius (newVal)
+            {
+                if(newVal > 0)
+                {
+                    this.r = newVal
+                }
+            }
+        }
+
+        let c = new Circle(12);
+        console.log("Area, r = 12 ", c.area)
+        
+        c.radius = 10;
+        console.log("Area, r=10 ", c.area)
+
+    </script>

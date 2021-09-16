@@ -1,0 +1,2 @@
+#4C5270 //cornflower, match with cyan color
+#BCECE0 // tiffany blue, match with cyan color

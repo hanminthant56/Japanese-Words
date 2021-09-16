@@ -1,0 +1,37 @@
+        ---------> popover
+                                    <!--　ひらがな　btn(Box->Header->a) -->
+                                    <a tabindex="0" data-placement="top" class="btn btn-sm btn-dark hiragana" role="button" data-toggle="popover " data-trigger="focus " 
+                                    data-content="いきます">
+                                        ひらがな
+                                    </a>
+                                    <!--　End, ひらがな　btn(Box->Header->a) -->
+                                    <p class="meaning">
+                                        <span class="myanmar">
+                                            
+                                        </span>
+                                    </p>  
+                                    <p class="jisho">
+                                        じしょ
+                                        <span class="blockquote-footer">
+                                            を
+                                        </span>
+                                    </p>
+                                    <p class="reibun">
+                                        <!--　ひらがな　btn(Box->Header->a) -->
+                                        <a tabindex="0" data-placement="top" data-html="true" class="btn btn-sm btn-dark hiragana" role="button" data-toggle="popover " data-trigger="focus " 
+                                        data-content="<div><strong>မရှိသေးပါ။</strong></div>">
+                                            れいぶん
+                                        </a>
+                                        <!--　End, ひらがな　btn(Box->Header->a) -->
+                                         - ဥပမာစာကြောင်း 
+                                    </p>
+------------------------------------
+                                        <br>
+                                        <button>ဥပမာ(အလုပ်မလုပ်သေးပါ)</button>
+--------------------------------                            
+                                      
+
+
+
+
+
